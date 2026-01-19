@@ -26,7 +26,7 @@
         <img src="logos/sslurp-logo.png" alt="SSLurp" width="80"><br>
         <strong>SSLurp</strong>
       </a><br>
-      <sub>SSL Certificate Monitoring</sub>
+      <sub>SSL Certificate Checking</sub>
     </td>
     <td align="center" width="20%">
       <a href="https://box.esoup.net">
@@ -106,7 +106,7 @@ Each eSoup tool has its own wax seal logo:
 | Tool | URL | What it does |
 |------|-----|--------------|
 | **eSoup** | [esoup.net](https://esoup.net) | Hub & subscription management |
-| **SSLurp** | [sslurp.esoup.net](https://sslurp.esoup.net) | Monitor SSL certificate expiry |
+| **SSLurp** | [sslurp.esoup.net](https://sslurp.esoup.net) | Check SSL certificates |
 | **Sipcode** | [box.esoup.net](https://box.esoup.net) | Generate & track QR codes |
 | **MailTaste** | [mailtaste.esoup.net](https://mailtaste.esoup.net) | Parse & visualize DMARC reports |
 | **DNSlurp** | [dnslurp.esoup.net](https://dnslurp.esoup.net) | Monitor DNS record changes |

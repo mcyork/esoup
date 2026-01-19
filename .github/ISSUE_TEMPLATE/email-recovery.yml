@@ -27,7 +27,7 @@ body:
       description: Which eSoup service emails do you need?
       multiple: true
       options:
-        - SSLurp (SSL certificate monitoring)
+        - SSLurp (SSL certificate checking)
         - Sipcode (QR code service)
         - MailTaste (DMARC reporting)
         - DNSlurp (DNS monitoring)
