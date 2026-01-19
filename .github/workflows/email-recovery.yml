@@ -2,7 +2,7 @@ name: Email Recovery Helper
 
 on:
   issues:
-    types: [opened]
+    types: [opened, labeled]
 
 jobs:
   post-mailto-link:
