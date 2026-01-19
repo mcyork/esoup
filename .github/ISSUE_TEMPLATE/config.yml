@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Discussions
+    url: https://github.com/mcyork/esoup/discussions
+    about: Ask questions or chat with the community

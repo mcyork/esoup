@@ -1,0 +1,42 @@
+name: Email Recovery
+description: Regain email access after unsubscribing or bouncing
+labels: ["email-recovery"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Email Recovery Request
+
+        If you've unsubscribed, marked us as spam, or your email bounced, we can't send you emails until you request reinstatement.
+
+        **After submitting this issue**, a bot will comment with a link to send the recovery email. Just click it and hit send.
+
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Consent
+      description: You must check this box to proceed
+      options:
+        - label: I consent to receiving transactional emails from eSoup services. I understand I was previously suppressed and am requesting reinstatement.
+          required: true
+
+  - type: dropdown
+    id: service
+    attributes:
+      label: Which service(s)?
+      description: Which eSoup service emails do you need?
+      multiple: true
+      options:
+        - SSLurp
+        - DNSlurp
+        - MailTaste
+        - All of them
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes
+      description: Anything else we should know?
+      placeholder: Optional
