@@ -21,33 +21,33 @@
 
 <table>
   <tr>
-    <td align="center" width="20%">
+    <td align="center" width="25%">
       <a href="https://sslurp.esoup.net">
         <img src="logos/sslurp-logo.png" alt="SSLurp" width="80"><br>
         <strong>SSLurp</strong>
       </a><br>
-      <sub>SSL Certificate Checking</sub>
+      <sub>SSL Certs</sub>
     </td>
-    <td align="center" width="20%">
+    <td align="center" width="25%">
       <a href="https://box.esoup.net">
         <img src="logos/sipcode-logo.png" alt="Sipcode" width="80"><br>
         <strong>Sipcode</strong>
       </a><br>
-      <sub>QR Code Service</sub>
+      <sub>QR Codes</sub>
     </td>
-    <td align="center" width="20%">
+    <td align="center" width="25%">
       <a href="https://mailtaste.esoup.net">
         <img src="logos/mailtaste-logo.png" alt="MailTaste" width="80"><br>
         <strong>MailTaste</strong>
       </a><br>
-      <sub>DMARC Reporting</sub>
+      <sub>DMARC</sub>
     </td>
-    <td align="center" width="20%">
+    <td align="center" width="25%">
       <a href="https://dnslurp.esoup.net">
         <img src="logos/dnslurp-logo.png" alt="DNSlurp" width="80"><br>
         <strong>DNSlurp</strong>
       </a><br>
-      <sub>DNS Monitoring</sub>
+      <sub>DNS</sub>
     </td>
   </tr>
 </table>
