@@ -19,28 +19,27 @@ jobs:
             const num = issue.number;
             const url = issue.html_url;
 
-            const subject = encodeURIComponent(`Email Recovery #${num}`);
-            const body = encodeURIComponent(
-              `Issue: ${url}\n\n` +
-              `Please unsuppress the email address I am sending from.`
-            );
-            const mailto = `mailto:support@esoup.net?subject=${subject}&body=${body}`;
+            const subject = encodeURIComponent('Email Recovery #' + num);
+            const body = encodeURIComponent('Issue: ' + url + '\n\nPlease unsuppress the email address I am sending from.');
+            const mailto = 'mailto:support@esoup.net?subject=' + subject + '&body=' + body;
 
-            const comment = `## 📧 One more step!
-
-Click this link to send your recovery request:
-
-### [Send Recovery Email](${mailto})
-
-This opens your email client with everything pre-filled. Just hit **Send**.
-
----
-
-_Your "from" address is what we'll unsuppress. We'll reply here once it's done._`;
+            const lines = [
+              '## 📧 One more step!',
+              '',
+              'Click this link to send your recovery request:',
+              '',
+              '### [Send Recovery Email](' + mailto + ')',
+              '',
+              'This opens your email client with everything pre-filled. Just hit **Send**.',
+              '',
+              '---',
+              '',
+              '_Your "from" address is what we\'ll unsuppress. We\'ll reply here once it\'s done._'
+            ];
 
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: num,
-              body: comment
+              body: lines.join('\n')
             });
