@@ -4,19 +4,7 @@ Notable features and improvements to [DNSlurp](https://dnslurp.esoup.net), the D
 
 ---
 
-## February 8, 2026
-
-### x402 Payment Protocol (v2)
-- Upgraded to x402 v2 protocol with EIP-712 signing for USDC on Base
-- Migrated to Coinbase CDP facilitator for mainnet settlement
-- Added `Retry-After` header to rate-limited responses
-
 ## January 27, 2026
-
-### x402 Micropayments
-- Rate-limited users can pay $0.17 USDC to unlock elevated limits for 3 days
-- Returns HTTP 402 (Payment Required) with x402 payment instructions
-- Integrates with Base blockchain via x402 protocol
 
 ### API Documentation
 - All API doc sections now collapsible for easier scanning
