@@ -38,9 +38,9 @@ Notable features and improvements to [DNSlurp](https://dnslurp.esoup.net), the D
 ## January 17, 2026
 
 ### Initial Launch
-- Query 24 DNS record types including full DNSSEC support (DS, DNSKEY, RRSIG, NSEC)
+- Query 24 DNS record types including DNSSEC types (DS, DNSKEY, RRSIG, NSEC)
 - Compare results across multiple DNS servers simultaneously
-- Authoritative lookups that trace the delegation chain from root to target
+- Authoritative mode — finds your domain's nameservers and queries them directly
 - Raw UDP queries with automatic TCP fallback for truncated responses
 - DNS-over-HTTPS (DoH) support for Google, Cloudflare, and Quad9
 - Exposes DNS flags: AA, AD, TC, RA and response codes
