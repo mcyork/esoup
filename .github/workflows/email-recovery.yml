@@ -21,7 +21,7 @@ jobs:
 
             const subject = encodeURIComponent('Email Recovery #' + num);
             const body = encodeURIComponent('Issue: ' + url + '\n\nPlease unsuppress the email address I am sending from.');
-            const mailto = 'mailto:support@esoup.net?subject=' + subject + '&body=' + body;
+            const mailto = 'mailto:recovery@esoup.net?subject=' + subject + '&body=' + body;
 
             const lines = [
               '## 📧 One more step!',
